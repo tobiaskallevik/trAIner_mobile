@@ -1,0 +1,1 @@
+A mobile app version of the trAIner application utilizing react native. This is a reupload of a repo originally hosted on Bitbucket. Sensitive info like API keys have been removed for obvious reasons. The app was created in a group. The original git log has been added to this repo alongside the sql script for creating the applications database.

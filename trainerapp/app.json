@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Trainer",
+    "slug": "trainerapp",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "freerasp-react-native/app.plugin.js",
+        {
+          "android": {
+            "minSdkVersion": "23"
+          }
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true
+          }
+        }
+      ],
+      "freerasp-react-native"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06243D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1c1c1e"
+      },
+      "package": "com.ikt205g24v4.trainerapp",
+      "versionCode": 13
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c8bc753-1cb9-4561-94b9-2e83a1f3d7cc"
+      }
+    },
+    "scheme": "trainerapp",
+    "owner": "ikt205projecttheteam"
+  }
+}
